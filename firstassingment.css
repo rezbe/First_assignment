@@ -1,0 +1,213 @@
+/* Universal styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    box-sizing: border-box;
+}
+
+/* For button */
+
+.btn-primary{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 4px solid #FD6E0A;
+    padding: 12px 30px;
+    height: 64px;
+    border-radius: 7px;
+    background-color:transparent;
+}
+
+/* section-1 Header*/
+
+.header{
+    min-height: 950px;
+    width: 100%;
+    background-image:url(images/banner/banner2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.sec-1-text-box h1 {
+    position:absolute;
+    right:250px;
+    top:200px;
+    text-align: right;
+    font-weight:700;
+    font-size:65px;
+}
+
+.sec-1-text-box p {
+    position:absolute;
+    right:250px;
+    top: 460px;
+    text-align: right;
+    font-weight:500;
+    font-size: 15px;
+}
+
+.sec-1-text-box .btn-primary{
+    position: absolute;
+    right: 250px;
+    top: 550px;
+}
+
+/* section-2 Failures */
+
+.failures{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.failures-textbox h2{
+    font-weight: 800px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.failures-textbox p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom:15px;
+    line-height: 22px;
+}
+
+.failures-textbox .right{
+    line-height: 30px;
+}
+
+/* section-3 Plans */
+
+.plans-title{
+    margin-left: 890px;
+    margin-top: 150px;
+    font-weight: 700;
+    font-size:50px;
+}
+
+.my-plans{
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.my-plans h3{
+    font-weight: 700px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.my-plans p{
+    font-weight: 500px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* Section-4 Positive Mindset */
+
+.positive{
+    background-image:linear-gradient(90deg, #F15B22 0%, rgba(200, 142, 119, 0) 90%), url(images/watch.png);
+    height: 300px;
+    width: 1250px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+.positive-text h2{
+    position: absolute;
+    left:450px;
+    top: 2500px;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.positive-text .btn-primary-1{
+    margin-left: 100px;
+    margin-top: 170px;
+}
+
+.btn-primary-1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    border: 4px solid hsl(0, 0%, 100%);
+    padding: 12px 30px;
+    height: 64px;
+    border-radius: 7px;
+    background-color:transparent;
+}
+
+/* section-5 Future */
+
+.future{
+    display: flex;
+    gap: 300px;
+    background-color: rgb(0, 0, 0);
+    padding: 230px 300px;
+    margin-top: 200px;
+}
+
+.future-title h3 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.future-title h4{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height:20px;
+}
+
+.future-title p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.future-title a{
+    text-decoration: none;
+}
+
+.subscribe-title h3{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+input{
+    margin-top: 20px;
+}
+ 
+.subscribe-title .email{
+    color: white;
+    height: 50px;
+    width: 300px;
+    padding-left: 5px;
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+} 
+
+.future-title{
+    margin-left: 100px;
+}
+
+. .subscribe-title{
+    margin-right: 100px;
+}
